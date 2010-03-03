@@ -1,7 +1,7 @@
 <div class="span-22 prefix-1 last">
 	<h1><?php echo __('How is Kohana Different?') ?></h1>
 	<p><?php echo __('Kohana is a <strong>PHP 5 framework</strong> that uses the <strong>Model View Controller</strong> architectural pattern. It aims to be <strong>secure</strong>, <strong>lightweight</strong>, and <strong>easy</strong> to use.
-	Although Kohana uses many common design patterns and concepts found in other frameworks, there are some things that make Kohana stand out:') ?></p>
+	Although Kohana uses many common design patterns and concepts found in other frameworks, here are some things that make Kohana stand out:') ?></p>
 </div>
 <div class="span-22 prefix-1 last">
 	<div id="cycle" class="swap">

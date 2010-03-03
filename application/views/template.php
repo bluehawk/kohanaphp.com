@@ -98,9 +98,9 @@
 					<?php echo View::factory('template/feed', array(
 					'feed' => 'http://forum.kohanaphp.com/search.php?PostBackAction=Search&Advanced=1&Type=Comments&Feed=RSS2',
 					'limit' => 5,
-					'more' => 'More discussions',
 					)) ?>
 				</ol>
+				<p><?php echo HTML::anchor('http://forum.kohanaphp.com/', 'More discussions') ?> &raquo; </p>
 			</div>
 			<div class="changes feed span-8 suffix-1 last">
 				<h6 class="caps top"><?php echo __('Latest Development') ?></h6>
@@ -112,6 +112,7 @@
 					'more' => 'More development',
 					)) ?>
 				</ol>
+				<p><?php echo HTML::anchor('http://dev.kohanaphp.com/projects/kohana/activity', 'More development') ?> &raquo; </p>
 			</div>
 		</div>
 	</div>

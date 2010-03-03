@@ -25,6 +25,13 @@ h4 { color: #113C32; margin: 0.4em 0 0.5em; }
 .right { float: right; margin-left: 10px; }
 .left { float: left; margin-right: 10px; }
 
+ul li{
+	list-style-type:disc;
+
+}
+
+
+
 /* Layout elements */
 #header,
 #content,
@@ -57,6 +64,7 @@ h4 { color: #113C32; margin: 0.4em 0 0.5em; }
 			margin:0;
 			padding:6px 10px 6px 11px;
 			background:transparent url('../img/topline-divider.png') center left no-repeat;
+			list-style-type:none;
 		}
 			#topline #quicklinks li a {
 				padding:0;
@@ -127,6 +135,7 @@ h4 { color: #113C32; margin: 0.4em 0 0.5em; }
 		}
 			#menu ul li {
 				float:left;
+				list-style-type:none;
 				margin:0;
 				padding:0;
 				background:#83C018 url('../img/overlay-light.png') 0 0 repeat-x;
@@ -224,6 +233,9 @@ h4 { color: #113C32; margin: 0.4em 0 0.5em; }
 	#footer a {
 		color: #809397;
 	}
+	#footer a:hover {
+		color: #99AEB2;
+	}
 	#footer .copyright {
 		color: #405c63;
 	}
@@ -247,7 +259,7 @@ h4 { color: #113C32; margin: 0.4em 0 0.5em; }
 	#footer .feed ol {
 		margin: 0;
 		padding: 0;
-		list-style: none;
+		list-style-type:square;
 	}
 		#footer .feed li {
 			margin: 0;

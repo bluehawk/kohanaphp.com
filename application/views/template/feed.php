@@ -27,5 +27,4 @@ foreach ($items as $item)
 	echo '<li>'.HTML::anchor($item[$link], $short ,array('title'=>$clean)).'</li>';
 }
 ?>
-<li>&raquo; <?php echo HTML::anchor($feed, $more) ?></li>
 <?php Fragment::save(); endif ?>
